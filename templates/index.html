@@ -19,6 +19,7 @@
                 <p>{{ post.content }}</p>
             </div>
         </li>
+        <p><a href="{{ url_for("delete", post_id=post.id) }}">Delete a Post</a></p>
         {% endfor %}
     </ul>
     <p><a href="{{ url_for("add") }}">Add a Post</a></p>
