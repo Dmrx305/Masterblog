@@ -1,6 +1,10 @@
+title {
+    display: flex;
+    justify-content: center;
+}
 body {
     font-family: Arial, sans-serif;
-    background-color: #F5F5F5;
+    background-color: #bab2a3;
     padding: 20px;
     color: #333;
 }
@@ -24,4 +28,9 @@ h1 {
 
 .post p {
     margin: 10px 0;
+}
+
+.forms {
+    display: flex;
+    justify-content: center;
 }
